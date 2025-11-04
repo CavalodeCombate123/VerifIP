@@ -9,7 +9,7 @@
 int main()
 {
 	SetConsoleOutputCP(65001); // Define a codificação UTF-8 para o console para uso de caracteres especiais
-	const char* ip = "165.152.227.53"; //Especificar o IP que deseja verificar no local das aspas
+	const char* ip = ""; //Especificar o IP que deseja verificar no local das aspas
 
 	// Comando Bash para verificar se o IP esta ESTABILISHED
 	char command[256]; // Buffer para armazenar o comando
@@ -33,3 +33,4 @@ int main()
 	return 0;
 
 }
+
